@@ -1,0 +1,32 @@
+body {
+  padding-top: 10px;
+}
+.starter-template {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  box-shadow: none
+  
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  box-shadow: none;
+}
+
+ul.nav a:hover { color: black !important; }
+.navbar .navbar-brand:hover, 
+.navbar .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
+}
+
+{ text-decoration: none !important}
+
+h1 { font-family: 
+'Roboto', sans-serif;}
