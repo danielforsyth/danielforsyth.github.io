@@ -15,8 +15,12 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="./css/starter-template.css" rel="stylesheet">
 
+    <!--JS Slider-->
+    <link rel="stylesheet" href="./css/ideal-image-slider.css">
+    <link rel="stylesheet" href="./css/default.css">
+  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,6 +28,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+     <style media="screen">
+  #slider {
+    max-width: 700px;
+    margin:auto;
+  }
+  </style>
 
 </head>
 
@@ -50,18 +61,30 @@
           </div><!--/.nav-collapse -->
         </nav>
 
+</div>
+
+<div id="slider">
+    <img src="./img/home.png" data-src-2x="./img/home.png" alt="Slide 1" />
+    <img data-src="./img/test.png" data-src-2x="./img/test.png" src="" alt="Slide 2" />
+    </div>
+
+    <br>
+    <br>
+
+    <!--Slider JS-->
+    <script src="./js/ideal-image-slider.js"></script>
+
+    <script>
+    var slider = new IdealImageSlider.Slider('#slider');
+    slider.start();
+    </script>
     
 
-        
-
-    </div>
-    <!-- /.container -->
-
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="./js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
 </body>
 
